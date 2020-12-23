@@ -1,0 +1,103 @@
+/* Navigation Bar */
+
+#navbar{
+    flex-direction: column;
+       
+}
+
+#logo{
+    margin-top: 33px;
+}
+
+#navbar a{
+    font-size: 15px;
+    padding: 2px 8px;
+    margin: 0px -3px;
+}
+}
+
+#navbar ul{
+    margin-top: 19px;
+    padding: 2px;
+       
+}
+
+#home h1{
+    font-size: 2.5em;
+    padding: 12px;
+}
+
+#home p{
+    font-size: 1em;
+    text-align: center;
+}
+
+#home input{
+    width: 234px;
+    font-size: 1em;
+}
+
+#home{
+    padding: 51px 0px;
+}
+
+#services-container{
+    flex-direction: column;
+        margin: 0 0px;
+        padding: 58px 0px;
+}
+
+.box {
+    padding: 11px 0px;
+    margin: 53px 3px;
+}
+.box img {
+    width: 151px;
+    height: 143px;
+    margin: 41px auto;
+    display: block;
+}
+
+.h-secondary {
+    font-size: 21px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.img-box {
+    width: 304px;
+    display: block;
+    margin: 27px auto;
+
+}
+
+/* footer */
+footer{
+    margin-top: 84px;
+    font-size: 12px;
+}
+
+#footer2
+{
+    margin: 10px 41px;
+}
+#footer div img {
+    height: 52px;
+    width: 127px;
+}
+
+#footer div{
+    padding: 6px;
+    margin-top: 30px;
+}
+
+#footer2 ul {
+    flex-wrap: wrap;
+    margin-left: -136px;
+}
+
+#footer2 h3{
+    margin: 1px 15px;
+    margin-top: 37px;
+
+}
