@@ -1,0 +1,148 @@
+
+    /* css reset */
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        color: rgb(108, 71, 209);
+
+    }
+
+    * {
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .bg {
+        background: url('image/pic.jpg');
+        height: 100%;
+
+        background-position: center;
+        background-size: cover;
+    }
+
+    .head {
+        width: 100%;
+    }
+
+    .logo {
+        /* border: 2px solid red; */
+        display: inline-block;
+        top: 10px;
+        position: absolute;
+        margin: auto 30px;
+    }
+
+    .logo img {
+        width: 73px;
+        border-radius: 77px;
+        border: dotted black 1px;
+        filter: invert(100%);
+        margin-left: 8px;
+    }
+
+    .nav {
+        /* border: 2px solid green; */
+        display: block;
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .button {
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 13px;
+
+    }
+    .button input{
+        font-size: 18px;
+    }
+    .button button {
+        border-radius: 15px;
+        border: 2px solid gray;
+        background-color: black;
+        color: blanchedalmond;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+
+    .button button:hover {
+        color: gray;
+    }
+
+    .nav li {
+        display: inline;
+        margin: 9px;
+        font-size: 23px;
+        /* font-family: 'Castoro', serif; */
+    }
+
+    .nav a {
+        color: honeydew;
+        margin: auto 9px;
+    }
+
+    .nav a:hover {
+        color: gray;
+        text-decoration: underline;
+    }
+
+    .logo div {
+        text-align: center;
+        color: honeydew;
+        line-height: 10px;
+
+    }
+
+    .container {
+        border: 2px solid #f6f7f6;
+        border-radius: 43px;
+        margin: 156px 54px;
+        width: 58%;
+        height: 435px;
+    }
+
+    .container input {
+        display: block;
+        width: 68%;
+        margin: 9px auto;
+        padding: 2px;
+        position: relative;
+        top: 43px;
+        font-size: 23px;
+        border-radius: 18px;
+        text-align: center;
+    }
+
+    .container h3 {
+        position: relative;
+        top: 29px;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        line-height: 0px;
+        text-shadow: 0 0 3px #FF0000;
+
+    }
+
+
+    .container button {
+
+        position: relative;
+        left: 77px;
+        top: 56px;
+        width: 78%;
+        border-radius: 18px;
+        font-size: 22px;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .container button:hover {
+        color: gray;
+    }
+
